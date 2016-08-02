@@ -1,5 +1,6 @@
 package com.materialnavigationdrawer;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -15,6 +16,8 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+    private Context context;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
